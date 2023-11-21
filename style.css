@@ -1,0 +1,62 @@
+.navbar{
+	position: fixed;
+	width: 100%;
+	opacity: 0.7;
+}
+.landing-header{
+	color: #FFA500;
+}
+.landing-paragraph{
+	color: white;
+}
+.navbar-nav {
+display: flex;
+align-items: center;
+}
+
+.navbar-nav .nav-link {
+color: white;
+text-decoration: none;
+}
+.nav-link:hover{
+	font-weight:bold;
+}
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: calc(100vh); 
+  background-image: url("desert.jpg");
+  background-size: cover;
+}
+.content {
+  flex-grow: 1; /* Allow content to grow and fill available space */
+  padding: 20px; /* Add padding for better spacing */
+}
+.contact-button{
+	height: 40px;
+	width: 150px;
+	background-color: orange;
+	border-radius: 10px;
+	border: 0;
+	margin-top: 2.5vh;
+	text-align: center;
+	font-weight: 550;
+}
+.contact-button:hover{
+	background-color: #ff7c00;
+}
+.contact-button-img{
+	height: 30px;
+	width: 30px;
+
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
